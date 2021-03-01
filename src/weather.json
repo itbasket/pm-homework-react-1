@@ -1,0 +1,102 @@
+[
+  {
+    "date": "2021/03/01",
+    "temperature": {
+      "min": -10,
+      "max": -2
+    },
+    "pressure": 1021,
+    "humidity": 90,
+    "wind": {
+      "speed": 3,
+      "direction": "NE"
+    },
+    "commonWeather": "snowy"
+  },
+  {
+    "date": "2021/03/02",
+    "temperature": {
+      "min": -12,
+      "max": -3
+    },
+    "pressure": 1018,
+    "humidity": 88,
+    "wind": {
+      "speed": 5,
+      "direction": "N"
+    },
+    "commonWeather": "snowy"
+  },
+  {
+    "date": "2021/03/03",
+    "temperature": {
+      "min": -5,
+      "max": 1
+    },
+    "pressure": 1030,
+    "humidity": 91,
+    "wind": {
+      "speed": 8,
+      "direction": "SE"
+    },
+    "commonWeather": "thunderstorm"
+  },
+  {
+    "date": "2021/03/04",
+    "temperature": {
+      "min": -2,
+      "max": 6
+    },
+    "pressure": 1012,
+    "humidity": 89,
+    "wind": {
+      "speed": 4,
+      "direction": "E"
+    },
+    "commonWeather": "rainy"
+  },
+  {
+    "date": "2021/03/05",
+    "temperature": {
+      "min": -3,
+      "max": 6
+    },
+    "pressure": 1024,
+    "humidity": 90,
+    "wind": {
+      "speed": 2,
+      "direction": "NW"
+    },
+    "commonWeather": "fog"
+  },
+  {
+    "date": "2021/03/06",
+    "temperature": {
+      "min": 0,
+      "max": 8
+    },
+    "pressure": 1019,
+    "humidity": 85,
+    "wind": {
+      "speed": 3,
+      "direction": "W"
+    },
+    "commonWeather": "cloudy"
+  },
+  {
+    "date": "2021/03/07",
+    "temperature": {
+      "min": 3,
+      "max": 12
+    },
+    "pressure": 1008,
+    "humidity": 78,
+    "wind": {
+      "speed": 2,
+      "direction": "EW"
+    },
+    "commonWeather": "sunny"
+  }
+]
+
+

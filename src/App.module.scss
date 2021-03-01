@@ -1,0 +1,47 @@
+.App {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mainBg {
+  height: 100%;
+  filter: blur(10px);
+}
+
+
+.weatherContainer {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  right: 5%;
+  bottom: 5%;
+  display: flex;
+  min-width: 1200px;
+}
+
+.snowy {
+  background: no-repeat url("./images/snowy.jpg") center / cover;
+}
+
+.thunderstorm {
+  background: url("./images/thunderstorm.jpg") center / cover;
+}
+
+.rainy {
+  background: no-repeat url("./images/rainy.jpg") center / cover;
+}
+
+.fog {
+  background: no-repeat url("./images/fog.jpg") center / cover;
+}
+
+.cloudy {
+  background: no-repeat url("./images/cloudy.jpg") center / cover;
+}
+
+.sunny {
+  background: no-repeat url("./images/sunny.jpg") center / cover;
+}

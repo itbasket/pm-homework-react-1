@@ -1,0 +1,47 @@
+.Card {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  min-width: 350px;
+  height: 80px;
+  margin: 0 auto;
+  background-color: #4b85a8;
+  border-radius: 10px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 4px solid #4b85a8;
+
+  &.active {
+    border: 4px solid #d98100;
+  }
+
+  &:not(.active):hover {
+    background-color: lighten(#4b85a8, 20%);
+  }
+
+  & h2 {
+    color: #e1b200;
+    font-size: 24px;
+    margin: 0;
+  }
+
+  & h3 {
+    color: #e1b200;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  & .desc {
+    display: flex;
+    flex-basis: 200px;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 20px;
+
+    & > i {
+      width: 60px;
+      line-height: 80px;
+      font-size: 36px;
+    }
+  }
+}

@@ -1,0 +1,81 @@
+.DayInfo {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 15%;
+  left: 5%;
+  min-width: 35%;
+  min-height: 200px;
+  font-weight: 600;
+}
+
+.primary {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  line-height: 80px;
+
+  & .temp {
+    font-size: 120px;
+  }
+
+  & .city {
+    font-size: 80px;
+  }
+
+  & .weather {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    text-align: center;
+
+    & i {
+      width: 60px;
+      font-size: 70px;
+      margin: 0 auto;
+    }
+  }
+}
+
+.secondary {
+  display: flex;
+  justify-content: space-around;
+  font-size: 22px;
+
+  & i {
+    font-size: 32px;
+    margin-left: 5px;
+  }
+}
+
+.snowy {
+  background: no-repeat url("../../images/snowy.jpg") center / cover;
+}
+
+.thunderstorm {
+  background: url("../../images/thunderstorm.jpg") center / cover;
+}
+
+.rainy {
+  background: no-repeat url("../../images/rainy.jpg") center / cover;
+}
+
+.fog {
+  background: no-repeat url("../../images/fog.jpg") center / cover;
+}
+
+.cloudy {
+  background: no-repeat url("../../images/cloudy.jpg") center / cover;
+}
+
+.sunny {
+  background: no-repeat url("../../images/sunny.jpg") center / cover;
+}
